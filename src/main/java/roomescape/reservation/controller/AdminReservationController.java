@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import roomescape.reservation.domain.Reservation;
 import roomescape.reservation.service.AdminReservationService;
-import roomescape.reservationtime.dto.dto.ReservationRequest;
-import roomescape.reservationtime.dto.dto.ReservationResponse;
+import roomescape.reservation.dto.ReservationRequest;
+import roomescape.reservation.dto.ReservationResponse;
 
 @RestController
 @RequestMapping("/admin/reservations")
